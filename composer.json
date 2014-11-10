@@ -1,0 +1,21 @@
+{
+    "name": "kwetal/calendar",
+    "description": "A library for creating calendars",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.0",
+        "kwetal/workdays": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.3.*"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Kwetal\\Calendar\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable" : true
+}
